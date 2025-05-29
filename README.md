@@ -26,7 +26,7 @@ git submodule add git@github.com:NuxSaaS/waitlist-module.git modules/waitlist
 ```ini
 [submodule "modules/waitlist"]
 	path = modules/waitlist
-	url = git@cyanhall.github.com:NuxSaaS/waitlist-module.git
+	url = git@github.com:NuxSaaS/waitlist-module.git
 ```
 
 ### Configure in nuxt.config.ts
