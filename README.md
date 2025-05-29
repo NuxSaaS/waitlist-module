@@ -16,13 +16,15 @@
 
 ## Installation
 
+### Direct Copy
+You can directly copy this module to your `modules/waitlist` directory.
+
 ### Add as Git Submodule
 ```bash
 git submodule add git@github.com:NuxSaaS/waitlist-module.git modules/waitlist
 ```
 
-### Update .gitmodules (Automatically)
-`.gitmodules`
+Update `.gitmodules` (Automatically):
 ```ini
 [submodule "modules/waitlist"]
 	path = modules/waitlist
