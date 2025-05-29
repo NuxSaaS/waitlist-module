@@ -1,0 +1,102 @@
+{
+  "en": {
+    "waitlist": {
+      "title": "Join Our Waitlist",
+      "subtitle": "Be the first to know when we launch",
+      "description": "Get early access to our platform and be notified as soon as we're ready for you.",
+      "form": {
+        "email": "Email Address",
+        "emailPlaceholder": "Enter your email address",
+        "name": "Name",
+        "namePlaceholder": "Enter your name (optional)",
+        "joinWaitlist": "Join Waitlist",
+        "joining": "Joining..."
+      },
+      "success": {
+        "title": "You're on the list!",
+        "message": "Thank you for joining our waitlist. We'll notify you as soon as we're ready.",
+        "backToHome": "Back to Home"
+      },
+      "errors": {
+        "invalidEmail": "Please enter a valid email address",
+        "alreadyRegistered": "This email is already registered in our waitlist",
+        "generalError": "Something went wrong. Please try again."
+      }
+    }
+  },
+  "zh-CN": {
+    "waitlist": {
+      "title": "加入等候名单",
+      "subtitle": "第一时间了解我们的发布信息",
+      "description": "获得我们平台的早期访问权限，并在我们准备就绪时立即收到通知。",
+      "form": {
+        "email": "邮箱地址",
+        "emailPlaceholder": "请输入您的邮箱地址",
+        "name": "姓名",
+        "namePlaceholder": "请输入您的姓名（可选）",
+        "joinWaitlist": "加入等候名单",
+        "joining": "加入中..."
+      },
+      "success": {
+        "title": "您已成功加入！",
+        "message": "感谢您加入我们的等候名单。我们准备就绪后会立即通知您。",
+        "backToHome": "返回首页"
+      },
+      "errors": {
+        "invalidEmail": "请输入有效的邮箱地址",
+        "alreadyRegistered": "此邮箱已在我们的等候名单中",
+        "generalError": "出现了一些问题，请重试。"
+      }
+    }
+  },
+  "ja": {
+    "waitlist": {
+      "title": "ウェイトリストに参加",
+      "subtitle": "ローンチの最新情報をいち早くお届け",
+      "description": "プラットフォームへの早期アクセスを取得し、準備が整い次第すぐに通知を受け取りましょう。",
+      "form": {
+        "email": "メールアドレス",
+        "emailPlaceholder": "メールアドレスを入力してください",
+        "name": "お名前",
+        "namePlaceholder": "お名前を入力してください（任意）",
+        "joinWaitlist": "ウェイトリストに参加",
+        "joining": "参加中..."
+      },
+      "success": {
+        "title": "リストに追加されました！",
+        "message": "ウェイトリストにご参加いただきありがとうございます。準備が整い次第お知らせいたします。",
+        "backToHome": "ホームに戻る"
+      },
+      "errors": {
+        "invalidEmail": "有効なメールアドレスを入力してください",
+        "alreadyRegistered": "このメールアドレスは既にウェイトリストに登録されています",
+        "generalError": "問題が発生しました。もう一度お試しください。"
+      }
+    }
+  },
+  "fr": {
+    "waitlist": {
+      "title": "Rejoindre notre liste d'attente",
+      "subtitle": "Soyez le premier informé de notre lancement",
+      "description": "Obtenez un accès anticipé à notre plateforme et soyez notifié dès que nous serons prêts pour vous.",
+      "form": {
+        "email": "Adresse e-mail",
+        "emailPlaceholder": "Entrez votre adresse e-mail",
+        "name": "Nom",
+        "namePlaceholder": "Entrez votre nom (optionnel)",
+        "joinWaitlist": "Rejoindre la liste d'attente",
+        "joining": "Inscription..."
+      },
+      "success": {
+        "title": "Vous êtes sur la liste !",
+        "message": "Merci de rejoindre notre liste d'attente. Nous vous notifierons dès que nous serons prêts.",
+        "backToHome": "Retour à l'accueil"
+      },
+      "errors": {
+        "invalidEmail": "Veuillez entrer une adresse e-mail valide",
+        "alreadyRegistered": "Cette adresse e-mail est déjà enregistrée dans notre liste d'attente",
+        "generalError": "Quelque chose s'est mal passé. Veuillez réessayer."
+      }
+    }
+  }
+}

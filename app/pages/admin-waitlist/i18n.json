@@ -1,0 +1,90 @@
+{
+  "en": {
+    "waitlist": {
+      "columns": {
+        "email": "Email",
+        "name": "Name",
+        "status": "Status",
+        "source": "Source",
+        "createdAt": "Joined Date"
+      },
+      "status": {
+        "pending": "Pending",
+        "invited": "Invited",
+        "registered": "Registered"
+      },
+      "actions": {
+        "invite": "Send Invite",
+        "resendInvite": "Resend Invite",
+        "delete": "Delete",
+        "export": "Export"
+      }
+    }
+  },
+  "zh-CN": {
+    "waitlist": {
+      "columns": {
+        "email": "邮箱",
+        "name": "姓名",
+        "status": "状态",
+        "source": "来源",
+        "createdAt": "加入日期"
+      },
+      "status": {
+        "pending": "等待中",
+        "invited": "已邀请",
+        "registered": "已注册"
+      },
+      "actions": {
+        "invite": "发送邀请",
+        "resendInvite": "重新发送邀请",
+        "delete": "删除",
+        "export": "导出"
+      }
+    }
+  },
+  "ja": {
+    "waitlist": {
+      "columns": {
+        "email": "メール",
+        "name": "名前",
+        "status": "ステータス",
+        "source": "ソース",
+        "createdAt": "参加日"
+      },
+      "status": {
+        "pending": "保留中",
+        "invited": "招待済み",
+        "registered": "登録済み"
+      },
+      "actions": {
+        "invite": "招待を送信",
+        "resendInvite": "招待を再送信",
+        "delete": "削除",
+        "export": "エクスポート"
+      }
+    }
+  },
+  "fr": {
+    "waitlist": {
+      "columns": {
+        "email": "Email",
+        "name": "Nom",
+        "status": "Statut",
+        "source": "Source",
+        "createdAt": "Date d'inscription"
+      },
+      "status": {
+        "pending": "En attente",
+        "invited": "Invité",
+        "registered": "Inscrit"
+      },
+      "actions": {
+        "invite": "Envoyer une invitation",
+        "resendInvite": "Renvoyer l'invitation",
+        "delete": "Supprimer",
+        "export": "Exporter"
+      }
+    }
+  }
+}

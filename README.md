@@ -1,0 +1,1 @@
+git submodule add git@github.com:NuxSaaS/waitlist-module.git modules/waitlist
