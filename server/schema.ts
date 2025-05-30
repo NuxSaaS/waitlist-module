@@ -40,7 +40,7 @@ export const waitlist = pgTable('waitlist', {
   // Timestamp when user completed registration
   registeredAt: timestamp('registered_at'),
 
-  createdAt: timestamp('created_at').notNull().defaultNow(),
+  createdAt: timestamp('created_at').notNull().$default(() => new Date()),
 
-  updatedAt: timestamp('updated_at').notNull().defaultNow()
+  updatedAt: timestamp('updated_at').notNull().$default(() => new Date())
 })
