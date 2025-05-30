@@ -40,7 +40,7 @@ export default defineNuxtConfig({
   ],
   waitlist: {
     enabled: true,
-    path: '/waitlist',
+    path: '/waitlist', // or false to disable
     adminPath: '/admin/waitlist',
     apiPath: '/api/waitlist'
   }

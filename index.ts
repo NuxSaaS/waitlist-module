@@ -2,7 +2,7 @@ import { addServerHandler, createResolver, defineNuxtModule } from '@nuxt/kit'
 
 export interface ModuleOptions {
   enabled: boolean
-  path: string
+  path: string | false
   adminPath: string
   apiPath: string
 }
@@ -31,14 +31,16 @@ export default defineNuxtModule<ModuleOptions>({
       handler: resolver.resolve('./server/api/waitlist/join.post.ts')
     })
 
-    // Add route
-    nuxt.hook('pages:extend', (pages) => {
-      pages.push({
-        name: 'waitlist',
-        path: options.path,
-        file: resolver.resolve('./app/pages/waitlist/index.vue')
+    // Add route only if path is not false
+    if (options.path !== false) {
+      nuxt.hook('pages:extend', (pages) => {
+        pages.push({
+          name: 'waitlist',
+          path: options.path as string,
+          file: resolver.resolve('./app/pages/waitlist/index.vue')
+        })
       })
-    })
+    }
 
     // Add admin page route
     nuxt.hook('pages:extend', (pages) => {
