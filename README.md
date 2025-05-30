@@ -16,10 +16,10 @@
 
 ## Installation
 
-### Direct Copy
+#### Direct Copy
 You can directly copy this module to your `modules/waitlist` directory.
 
-### Add as Git Submodule
+#### Add as Git Submodule
 ```bash
 git submodule add git@github.com:NuxSaaS/waitlist-module.git modules/waitlist
 ```
@@ -31,7 +31,22 @@ Update `.gitmodules` (Automatically):
 	url = git@github.com:NuxSaaS/waitlist-module.git
 ```
 
-### Configure in nuxt.config.ts
+## Setup
+
+#### Database Schema
+
+Import the waitlist module's database definitions in `server/database/schema/index.ts`:
+```ts
+export * from '../../../modules/waitlist/server/schema'
+```
+
+Migrate Database:
+```bash
+npm run db:generate
+npm run db:migrate
+```
+
+#### Configure in `nuxt.config.ts`
 
 ```ts
 export default defineNuxtConfig({
