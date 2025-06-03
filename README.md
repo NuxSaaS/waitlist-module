@@ -1,5 +1,7 @@
 # Waitlist Module
 
+A NuxSaaS module for managing user waitlists with email-based registration and comprehensive admin dashboard.
+
 ## Features
 
 - 🚀 **User Registration**: Simple email-based waitlist signup
@@ -12,7 +14,7 @@
 - 📧 **Status Management**: Pending, invited, and registered states
 
 ## Version
-- **1.0.0**
+- **1.0.0** - Initial release
 
 ## Installation
 
