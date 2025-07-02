@@ -52,9 +52,6 @@ npm run db:migrate
 
 ```ts
 export default defineNuxtConfig({
-  modules: [
-    './modules/waitlist'
-  ],
   waitlist: {
     enabled: true,
     path: '/waitlist', // or false to disable
