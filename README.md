@@ -19,7 +19,7 @@ A NuxSaaS module for managing user waitlists with email-based registration and c
 ## Installation
 
 #### Direct Copy
-You can directly copy this module to your `modules/waitlist` directory.
+You can directly copy this module to your `modules/waitlist` directory. Nuxt will automatically enable this module. 
 
 #### Add as Git Submodule
 ```bash
