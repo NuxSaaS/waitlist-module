@@ -49,6 +49,6 @@ export default defineNuxtModule<ModuleOptions>({
       })
     })
 
-    console.log('✅ Waitlist module enabled')
+    console.info('[waitlist] Waitlist module enabled')
   }
 })
