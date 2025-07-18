@@ -23,7 +23,7 @@ useSeoMeta({
 })
 
 const schema = z.object({
-  email: z.string().email(t('waitlist.errors.invalidEmail')),
+  email: z.email(t('waitlist.errors.invalidEmail')),
   name: z.string().optional()
 })
 

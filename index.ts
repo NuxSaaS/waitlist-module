@@ -4,7 +4,6 @@ export interface ModuleOptions {
   enabled: boolean
   path: string | false
   adminPath: string
-  apiPath: string
 }
 
 export default defineNuxtModule<ModuleOptions>({
@@ -15,8 +14,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     enabled: true,
     path: '/waitlist',
-    adminPath: '/admin/waitlist',
-    apiPath: '/api/waitlist'
+    adminPath: '/admin/waitlist'
   },
   setup(options, nuxt) {
     if (!options.enabled) {
@@ -27,7 +25,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     // Add server handlers
     addServerHandler({
-      route: `${options.apiPath}/join`,
+      route: `/api/waitlist/join`,
       handler: resolver.resolve('./server/api/waitlist/join.post.ts')
     })
 
